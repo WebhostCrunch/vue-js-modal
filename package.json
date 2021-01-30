@@ -1,7 +1,7 @@
 {
   "name": "vue-js-modal",
   "description": "Modal Component for Vue.js",
-  "version": "2.0.0-rc.6",
+  "version": "vue-2.6.12",
   "author": "euvl <yev.dev@gmail.com>",
   "main": "dist/index.js",
   "publishConfig": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/euvl/vue-js-modal.git"
+    "url": "https://github.com/WebhostCrunch/vue-js-modal.git"
   },
   "types": "types/index.d.ts",
   "keywords": [
