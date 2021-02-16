@@ -4,9 +4,6 @@
   "version": "2.0.0-rc.7",
   "author": "euvl <yev.dev@gmail.com>",
   "main": "dist/index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/WebhostCrunch/vue-js-modal.git"
@@ -39,7 +36,8 @@
     "watch": "webpack --config ./build/webpack.client.config.js --progress --hide-modules --watch",
     "test:types": "tsc -p types/test",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "prepare": "npm run build"
   },
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
